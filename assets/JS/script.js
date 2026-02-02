@@ -7,11 +7,11 @@ console.log("It's working");
   - JS operators
   - if/else
   - Number()
-  
+
 */
 
 // Collect data
-let kilometers, price_km_based, output_price
+let kilometers, price_km_based, output_price, age
 
   // Aks User for kilometers amount
 
