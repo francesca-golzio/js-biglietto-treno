@@ -16,8 +16,8 @@ let kilometers, price_km_based, output_price, age
   // Aks User for kilometers amount - PROMPT, convert from string to number - NUMBER(), store the value in a variable
   kilometers = Number(prompt('How many kilometers long is your railway route?')); // console.log(kilometers)
 
-  // Aks User for traveler age and store the value in a variable
-  age = prompt('How old is the passenger?')  // console.log(age)    
+  // Aks User for traveler age - PROMPT, convert from string to number - NUMBER(), store the value in a variable
+  age = Number(prompt('How old is the passenger?'));  // console.log(age)    
     
 // Determin total ticket price amount
 
