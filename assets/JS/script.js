@@ -19,9 +19,11 @@ let kilometers, price_km_based, output_price, age
   // Aks User for traveler age - PROMPT, convert from string to number - NUMBER(), store the value in a variable
   age = Number(prompt('How old is the passenger?'));  // console.log(age)    
     
+
 // Determin total ticket price amount
 
   // Calc starting price based on km
+  price_km_based = (kilometers * 0.21); // console.log(price_km_based)
 
   // Check if the User classifies for a discount
 
