@@ -11,7 +11,7 @@ console.log("It's working");
 */
 
 // Collect data
-let kilometers, price_km_based, output_price, age
+let kilometers, price_km_based, output_price, user_price, age
 
   // Aks User for kilometers amount - PROMPT, convert from string to number - NUMBER(), store the value in a variable
   kilometers = 100/* Number(prompt('How many kilometers long is your railway route?')); // console.log(kilometers) */
@@ -39,9 +39,9 @@ let kilometers, price_km_based, output_price, age
     }
     //console.log(output_price)
 
-  // Convert final price into a human friendly form: no more than 2 decimal places
+  // Convert final price into a human friendly form: no more than 2 decimal places (and store value)
+  user_price = output_price.toFixed(2);  console.log(user_price)
 
 
-  
   
 
