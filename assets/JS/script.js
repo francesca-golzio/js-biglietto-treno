@@ -6,15 +6,20 @@ console.log("It's working");
   - prompt()
   - JS operators
   - if/else
+  - Number()
+  
 */
 
-// Aks User for kilometers amount
+// Collect data
+let kilometers, price_km_based, output_price
 
-  // Store value in a variable
-  
-// Aks User for kilometers amount
-  
-  // Store value in a variable
+  // Aks User for kilometers amount
+
+    // Store value in a variable
+    
+  // Aks User for kilometers amount
+    
+    // Store value in a variable
   
 // Determin total ticket price amount
 
