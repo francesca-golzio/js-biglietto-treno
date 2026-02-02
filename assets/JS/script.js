@@ -14,7 +14,7 @@ console.log("It's working");
 let kilometers, price_km_based, output_price, age
 
   // Aks User for kilometers amount - PROMPT, convert from string to number - NUMBER(), store the value in a variable
-  kilometers = Number(prompt('How many kilometers long is your railway route?')); // console.log(kilometers)
+  kilometers = 100/* Number(prompt('How many kilometers long is your railway route?')); // console.log(kilometers) */
 
   // Aks User for traveler age - PROMPT, convert from string to number - NUMBER(), store the value in a variable
   age = Number(prompt('How old is the passenger?'));  // console.log(age)    
@@ -22,22 +22,26 @@ let kilometers, price_km_based, output_price, age
 
 // Determin total ticket price amount
 
-  // Calc starting price based on km
+  // Calc starting price based on km (and store the value in a variable)
   price_km_based = (kilometers * 0.21); // console.log(price_km_based)
 
-  // Check if the User classifies for a discount
+  // Check if the User classifies for a discount (and eventually apply it)
 
-    // IF underage -> apply 20% discount
+  // IF underage -> apply 20% discount (and store the value in a variable)
+    if (age < 18) {
+      output_price = (price_km_based - (price_km_based / 100) * 20);
+    } else if (age >= 65) {
+      // ELSE/IF over 65 -> apply 40% discount (and store the value in a variable)
+      output_price = (price_km_based - (price_km_based / 100) * 40);
+    } else {      
+    // ELSE do not apply discount (and store the value in a variable)
+    output_price = price_km_based;
+    }
+    //console.log(output_price)
 
-      // Store the price value in a var
-      
-    // IF/ELSE over 65 -> apply 40% discount
-      
-      // Store the price value in a var
-      
-    // ELSE do not apply discount      
-      // Store the price value in a var
-    
   // Convert final price into a human friendly form: no more than 2 decimal places
+
+
+  
   
 
