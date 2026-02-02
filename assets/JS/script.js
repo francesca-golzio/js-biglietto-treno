@@ -13,9 +13,9 @@ console.log("It's working");
 // Collect data
 let kilometers, price_km_based, output_price, age
 
-  // Aks User for kilometers amount
-
-    // Store value in a variable
+  // Aks User for kilometers amount and store the value in a variable
+  kilometers = prompt('How many kilometers long is your railway route?')
+  // console.log(kilometers)
     
   // Aks User for kilometers amount
     
